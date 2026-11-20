@@ -1,0 +1,21 @@
+
+class Pessoa:
+    def __init__(self):
+        self.nome = "João Silva"
+        self.mes_aniversario = "Março"
+        self.cidade = "Santa Cruz - RN"
+        self.altura = 1.70
+
+    def apresentar(self):
+        print("=== MINHAS INFORMAÇÕES ===")
+        print("Nome:", self.nome)
+        print("Mês de aniversário:", self.mes_aniversario)
+        print("Cidade:", self.cidade)
+        print("Altura:", self.altura, "metros")
+
+
+# Criando um objeto da classe Pessoa
+pessoa = Pessoa()
+
+# Exibindo as informações
+pessoa.apresentar()
